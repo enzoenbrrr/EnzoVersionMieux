@@ -1,7 +1,7 @@
 let i = 0;
 async function getKickStatement() {
     i++;
-    return fetch('https://kick.com/api/v2/channels/lutaa/livestream', { method: "GET" })
+    return fetch('https://kick.com/api/v2/channels/jeanpormanove/livestream', { method: "GET" })
         .then(response => response.json())
         .then(data => {
             let live;
