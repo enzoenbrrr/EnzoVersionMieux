@@ -28,3 +28,4 @@ async function getKickStatement(){
     })
   .catch(error => {getKickStatement();});
 }
+getKickStatement()
