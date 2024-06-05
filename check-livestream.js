@@ -24,7 +24,7 @@ async function getKickStatement(){
             'test': i
         }
     }
-    console.log(live)
+    return live;
     })
   .catch(error => {getKickStatement();});
 }
